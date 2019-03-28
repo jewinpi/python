@@ -9,4 +9,4 @@ if endNum > 0:
     print(i)
     i1 = i + i1 
 else:
-  print('Cannot have a range equal to 0')
+  print('Cannot have a range equal or less than 0')
