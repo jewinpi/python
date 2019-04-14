@@ -11,7 +11,7 @@ try:
  print('Phrase ciphered is' , '"' + Ciphed + '"')
  phrase.clear()
 except:
-  print('Please only type in letters and numbers.')
+  print('Please only type in letters that are lowercase and numbers.')
 
 deCiph = input('Do you want to dechiper the phrase? ')
 
