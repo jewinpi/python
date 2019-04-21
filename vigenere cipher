@@ -16,7 +16,7 @@ while len(Key) < len(crypt):
 try:
  for i in range(len(Ciph)):
    b = alph.get(Ciph[i]) + alph.get(Key[i])
-   if b > 26:
+   if b >= 26:
      b = b - 26
    Final.append(alph2.get(b))
  x = ''.join(Final)
