@@ -4,9 +4,11 @@ Key = []
 Ciph = []
 Final = []
 crypt = input('Put in a phrase to encrypt: ')
+crypt = crypt.lower()
 for letter in crypt:
   Ciph.append(letter)
 key = input('Put in a key for a strong encryption: ')
+key = key.lower()
 while len(Key) < len(crypt):
  for letter in key:
    if len(crypt) > len(Key):
