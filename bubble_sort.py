@@ -1,9 +1,8 @@
-def swadef swap_fun():
+def swap_fun():
   x = nums.pop(i1)
   nums.insert(i, x)
   print(nums)
-  y = 0
-nums = [6,9,8,1,2,4]
+nums = [2,3,5,8,1,4]
 print(nums)
 i = 0
 i1 = 1
@@ -14,6 +13,7 @@ while i1 <= len(nums):
       swap_fun()
       i += 1
       i1 += 1
+      y = 0
     if y >= len(nums):
       break
     elif nums[i] <= nums[i1]:
